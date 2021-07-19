@@ -60,6 +60,7 @@ public class GroupCreationsTests {
   }
 
   private void initGroupCreation() {
+
     wd.findElement(By.name("new")).click();
   }
 

@@ -68,7 +68,7 @@
       <recent name="ru.stqa.pft.sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationsTests">
+  <component name="RunManager" selected="TestNG.ContactCreationsTests">
     <configuration name="ExecutableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.ExecutableClass" />
       <module name="sandbox.main" />
@@ -82,9 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFirstProgramm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFirstProgramm" />
-      <module name="sandbox.main" />
+    <configuration name="ContactCreationsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.ContactCreationsTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,18 +152,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExecutableClass" />
-      <item itemvalue="Application.MyFirstProgramm" />
       <item itemvalue="TestNG.DistanceTests" />
       <item itemvalue="TestNG.CroupCreationTests" />
       <item itemvalue="TestNG.GroupCreationsTests" />
+      <item itemvalue="TestNG.ContactCreationsTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactCreationsTests" />
         <item itemvalue="TestNG.GroupCreationsTests" />
         <item itemvalue="TestNG.CroupCreationTests" />
         <item itemvalue="TestNG.DistanceTests" />
         <item itemvalue="Application.ExecutableClass" />
-        <item itemvalue="Application.MyFirstProgramm" />
       </list>
     </recent_temporary>
   </component>
@@ -189,22 +199,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1626520203160" />
-    <state width="1322" height="209" key="GridCell.Tab.0.bottom" timestamp="1626683451486">
+    <state width="1322" height="209" key="GridCell.Tab.0.bottom" timestamp="1626687206904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626683451486" />
-    <state width="1322" height="209" key="GridCell.Tab.0.center" timestamp="1626683451485">
+    <state width="1322" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626687206904" />
+    <state width="1322" height="209" key="GridCell.Tab.0.center" timestamp="1626687206904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626683451485" />
-    <state width="1322" height="209" key="GridCell.Tab.0.left" timestamp="1626683451485">
+    <state width="1322" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626687206904" />
+    <state width="1322" height="209" key="GridCell.Tab.0.left" timestamp="1626687206903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626683451485" />
-    <state width="1322" height="209" key="GridCell.Tab.0.right" timestamp="1626683451486">
+    <state width="1322" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626687206903" />
+    <state width="1322" height="209" key="GridCell.Tab.0.right" timestamp="1626687206904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626683451486" />
+    <state width="1322" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626687206904" />
     <state x="348" y="67" key="NewModule_or_Project.wizard" timestamp="1626520191609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
