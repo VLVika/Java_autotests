@@ -67,21 +67,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.stqa.pft.sandbox" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.addressbook" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.ContactCreationsTests">
-    <configuration name="ExecutableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.ExecutableClass" />
-      <module name="sandbox.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.sandbox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ContactCreationsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -150,20 +140,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupDeletionsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.GroupDeletionsTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ExecutableClass" />
       <item itemvalue="TestNG.DistanceTests" />
       <item itemvalue="TestNG.CroupCreationTests" />
       <item itemvalue="TestNG.GroupCreationsTests" />
       <item itemvalue="TestNG.ContactCreationsTests" />
+      <item itemvalue="TestNG.GroupDeletionsTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ContactCreationsTests" />
+        <item itemvalue="TestNG.GroupDeletionsTests" />
         <item itemvalue="TestNG.GroupCreationsTests" />
         <item itemvalue="TestNG.CroupCreationTests" />
         <item itemvalue="TestNG.DistanceTests" />
-        <item itemvalue="Application.ExecutableClass" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +198,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="386" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1626528824477" />
+    <state x="393" y="115" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1626798851881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="393" y="115" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1626798851881" />
     <state x="466" y="227" width="476" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1625921485911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -199,22 +210,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1626520203160" />
-    <state width="1322" height="209" key="GridCell.Tab.0.bottom" timestamp="1626694128965">
+    <state width="1322" height="209" key="GridCell.Tab.0.bottom" timestamp="1626797797356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626694128965" />
-    <state width="1322" height="209" key="GridCell.Tab.0.center" timestamp="1626694128965">
+    <state width="1322" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626797797356" />
+    <state width="1322" height="209" key="GridCell.Tab.0.center" timestamp="1626797797356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626694128965" />
-    <state width="1322" height="209" key="GridCell.Tab.0.left" timestamp="1626694128964">
+    <state width="1322" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626797797356" />
+    <state width="1322" height="209" key="GridCell.Tab.0.left" timestamp="1626797797356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626694128964" />
-    <state width="1322" height="209" key="GridCell.Tab.0.right" timestamp="1626694128965">
+    <state width="1322" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626797797356" />
+    <state width="1322" height="209" key="GridCell.Tab.0.right" timestamp="1626797797356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626694128965" />
+    <state width="1322" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626797797356" />
     <state x="348" y="67" key="NewModule_or_Project.wizard" timestamp="1626520191609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -235,10 +246,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="520" y="140" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1625921485766" />
-    <state x="413" y="113" key="extract.method.dialog" timestamp="1626694624420">
+    <state x="413" y="113" key="extract.method.dialog" timestamp="1626701509612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="113" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1626694624420" />
+    <state x="413" y="113" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1626701509612" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sandbox$CroupCreationTests.ic" NAME="CroupCreationTests Coverage Results" MODIFIED="1626532596777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
