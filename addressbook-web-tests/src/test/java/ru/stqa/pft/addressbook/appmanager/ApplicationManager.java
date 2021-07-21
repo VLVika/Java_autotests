@@ -1,7 +1,6 @@
 package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,9 +13,7 @@ public class ApplicationManager {
 
     private ContactHelper contactHelper;
     private SessionHelper sessionHelper;
-
     private NavigationHelper navigationHelper;
-
     private GroupHelper groupHelper;
 
     public void init() {
@@ -44,14 +41,6 @@ public class ApplicationManager {
       }
     }
 
-    public boolean isAlertPresent() {
-      try {
-        wd.switchTo().alert();
-        return true;
-      } catch (NoAlertPresentException e) {
-        return false;
-      }
-    }
 
     public GroupHelper getGroupHelper() {
         return groupHelper;
