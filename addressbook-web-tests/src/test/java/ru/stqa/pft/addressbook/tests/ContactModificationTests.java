@@ -13,6 +13,6 @@ public class ContactModificationTests extends TestBase {
       app.getContactHelper().fillingFieldsNewContact(new ContactData("Maria", "Semakina", "MarSem", "624-55-57", "addressnew2@mail.ru"));
       app.getContactHelper().buttonUpdateContact();
       app.getNavigationHelper().goToHomePage();
-
+      app.getSessionHelper().logOut();
     }
 }

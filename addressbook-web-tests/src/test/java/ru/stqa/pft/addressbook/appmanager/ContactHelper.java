@@ -35,4 +35,18 @@ public class ContactHelper extends HelperBase {
     public void buttonUpdateContact() {
     click(By.name("update"));
     }
+
+    public void checkboxContact() {
+    click(By.name("selected[]"));
+
+    }
+
+    public void buttonDeleteContact() {
+    click(By.xpath("//div[@class = 'left'][2]"));
+
+    }
+
+    public void alertmessage() {
+        wd.switchTo().alert().accept();
+    }
 }

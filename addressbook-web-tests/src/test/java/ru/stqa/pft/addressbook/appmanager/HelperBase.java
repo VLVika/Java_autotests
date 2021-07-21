@@ -22,6 +22,8 @@ public class HelperBase {
         wd.findElement(locator).sendKeys(text);
     }
 
+
+
     public boolean isAlertPresent() {
         try {
             wd.switchTo().alert();
@@ -30,4 +32,6 @@ public class HelperBase {
             return false;
         }
     }
+
+
 }

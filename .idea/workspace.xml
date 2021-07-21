@@ -76,7 +76,7 @@
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactModificationTests">
+  <component name="RunManager" selected="TestNG.ContactDeletionTests">
     <configuration name="ContactCreationsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -94,6 +94,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactDeletionTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -104,23 +121,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactModificationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupCreationsTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.appmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationsTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -163,19 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.GroupCreationsTests" />
       <item itemvalue="TestNG.ContactCreationsTests" />
       <item itemvalue="TestNG.GroupDeletionsTests" />
       <item itemvalue="TestNG.GroupModificationTests" />
       <item itemvalue="TestNG.ContactModificationTests" />
+      <item itemvalue="TestNG.ContactDeletionTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactModificationTests" />
+        <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.ContactCreationsTests" />
+        <item itemvalue="TestNG.ContactModificationTests" />
         <item itemvalue="TestNG.GroupModificationTests" />
         <item itemvalue="TestNG.GroupDeletionsTests" />
-        <item itemvalue="TestNG.GroupCreationsTests" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +191,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1626881328046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1626881328046" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1625916460180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -215,22 +219,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1626520203160" />
-    <state width="1322" height="230" key="GridCell.Tab.0.bottom" timestamp="1626877177980">
+    <state width="1322" height="384" key="GridCell.Tab.0.bottom" timestamp="1626882361911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626877177980" />
-    <state width="1322" height="230" key="GridCell.Tab.0.center" timestamp="1626877177980">
+    <state width="1322" height="384" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626882361911" />
+    <state width="1322" height="384" key="GridCell.Tab.0.center" timestamp="1626882361910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="230" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626877177980" />
-    <state width="1322" height="230" key="GridCell.Tab.0.left" timestamp="1626877177980">
+    <state width="1322" height="384" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626882361910" />
+    <state width="1322" height="384" key="GridCell.Tab.0.left" timestamp="1626882361910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="230" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626877177980" />
-    <state width="1322" height="230" key="GridCell.Tab.0.right" timestamp="1626877177980">
+    <state width="1322" height="384" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626882361910" />
+    <state width="1322" height="384" key="GridCell.Tab.0.right" timestamp="1626882361910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="230" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626877177980" />
+    <state width="1322" height="384" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626882361910" />
     <state x="348" y="67" key="NewModule_or_Project.wizard" timestamp="1626520191609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
