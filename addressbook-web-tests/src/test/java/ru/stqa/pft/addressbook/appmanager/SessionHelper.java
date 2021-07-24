@@ -5,10 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.lang.Thread;
-
-import java.util.concurrent.TimeUnit;
-
 public class SessionHelper extends HelperBase {
 
     public SessionHelper(WebDriver wd) {
@@ -16,19 +12,23 @@ public class SessionHelper extends HelperBase {
     }
 
     public void login(String userName, String password) {
-      type(By.name("user"), userName);
-      type(By.name("pass"), password);
-      click(By.xpath("//input[@value='Login']"));
+        type(By.name("user"), userName);
+        type(By.name("pass"), password);
+        click(By.xpath("//input[@value='Login']"));
     }
 
     public void logOut() {
-        wd.findElement(By.linkText("Logout")).click();
+        click(By.linkText("Logout"));
     }
 
-    public void waitSecond(){
-        WebDriverWait wait = new WebDriverWait(wd,5);
+    public void waitSecond() {
+        WebDriverWait wait = new WebDriverWait(wd, 5);
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id='content']/div")));
 
     }
 
-}
+
+    }
+
+
+
