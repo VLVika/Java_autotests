@@ -10,7 +10,6 @@ public class ContactDeletionTests extends TestBase {
       app.getContactHelper().checkboxContact();
       app.getContactHelper().buttonDeleteContact();
       app.getContactHelper().alertmessage();
-      app.getSessionHelper().waitSecond();
       app.getSessionHelper().logOut();
     }
 
