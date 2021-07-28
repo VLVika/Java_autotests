@@ -3,6 +3,24 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="36236e1e-0492-4be0-a111-265404d06dc1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +51,15 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="addressbook-web-tests" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="addressbook-web-tests" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sandbox" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -88,7 +115,7 @@
       <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationsTests">
+  <component name="RunManager" selected="TestNG.GroupDeletionsTests">
     <configuration name="ContactCreationsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -106,6 +133,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactDeletionTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -116,23 +160,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactModificationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupCreationsTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationsTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -175,19 +202,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.GroupCreationsTests" />
-      <item itemvalue="TestNG.GroupDeletionsTests" />
-      <item itemvalue="TestNG.ContactModificationTests" />
       <item itemvalue="TestNG.GroupModificationTests" />
       <item itemvalue="TestNG.ContactCreationsTests" />
+      <item itemvalue="TestNG.ContactDeletionTests" />
+      <item itemvalue="TestNG.ContactModificationTests" />
+      <item itemvalue="TestNG.GroupDeletionsTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactCreationsTests" />
-        <item itemvalue="TestNG.GroupModificationTests" />
         <item itemvalue="TestNG.GroupDeletionsTests" />
-        <item itemvalue="TestNG.GroupCreationsTests" />
+        <item itemvalue="TestNG.GroupModificationTests" />
+        <item itemvalue="TestNG.ContactDeletionTests" />
         <item itemvalue="TestNG.ContactModificationTests" />
+        <item itemvalue="TestNG.ContactCreationsTests" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +228,18 @@
       <updated>1625916230267</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1626881328046">
@@ -231,38 +270,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627210597225" />
-    <state width="1322" height="250" key="GridCell.Tab.0.bottom" timestamp="1627494578719">
+    <state width="1322" height="128" key="GridCell.Tab.0.bottom" timestamp="1627498147542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627494578719" />
-    <state width="1322" height="250" key="GridCell.Tab.0.center" timestamp="1627494578718">
+    <state width="1322" height="128" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627498147542" />
+    <state width="1322" height="128" key="GridCell.Tab.0.center" timestamp="1627498147542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627494578718" />
-    <state width="1322" height="250" key="GridCell.Tab.0.left" timestamp="1627494578718">
+    <state width="1322" height="128" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627498147542" />
+    <state width="1322" height="128" key="GridCell.Tab.0.left" timestamp="1627498147542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627494578718" />
-    <state width="1322" height="250" key="GridCell.Tab.0.right" timestamp="1627494578719">
+    <state width="1322" height="128" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627498147542" />
+    <state width="1322" height="128" key="GridCell.Tab.0.right" timestamp="1627498147542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627494578719" />
-    <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1627384662052">
+    <state width="1322" height="128" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627498147542" />
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1627495472050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627384662052" />
-    <state width="1322" height="216" key="GridCell.Tab.1.center" timestamp="1627384662051">
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627495472050" />
+    <state width="1322" height="216" key="GridCell.Tab.1.center" timestamp="1627495472049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627384662051" />
-    <state width="1322" height="216" key="GridCell.Tab.1.left" timestamp="1627384662051">
+    <state width="1322" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627495472049" />
+    <state width="1322" height="216" key="GridCell.Tab.1.left" timestamp="1627495472049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627384662051" />
-    <state width="1322" height="216" key="GridCell.Tab.1.right" timestamp="1627384662051">
+    <state width="1322" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627495472049" />
+    <state width="1322" height="216" key="GridCell.Tab.1.right" timestamp="1627495472050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627384662051" />
+    <state width="1322" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627495472050" />
     <state x="348" y="67" key="NewModule_or_Project.wizard" timestamp="1626520191609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -287,6 +326,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1626861893254" />
+    <state x="388" y="12" width="943" height="696" key="find.popup" timestamp="1627496769329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="388" y="12" width="943" height="696" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1627496769329" />
     <state x="383" y="120" key="refactoring.ChangeSignatureDialog" timestamp="1627156536095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
