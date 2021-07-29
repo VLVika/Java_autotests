@@ -9,10 +9,13 @@ public class ContactModificationTests extends TestBase {
     @Test
 
     public void testContactModification() {
+        if( ! app.getContactHelper().chekingContact()){
+            app.getContactHelper().createContact(new ContactData("Viktirya", "Ledovskikh", "LedoVik", "965-88-52", "addressnew@mail.ru", "test5"), true);
+        }
       app.getContactHelper().buttonEditContact();
       app.getContactHelper().fillingFieldsNewContact(new ContactData("Maria", "Semakina", "MarSem", "624-55-57", "addressnew2@mail.ru", null), false);
       app.getContactHelper().buttonUpdateContact();
-      app.getNavigationHelper().goToHomePage();
+      app.getContactHelper().goToHomePage();
       app.getSessionHelper().logOut();
     }
 }

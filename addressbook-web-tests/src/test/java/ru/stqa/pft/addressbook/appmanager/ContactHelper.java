@@ -39,7 +39,7 @@ public class ContactHelper extends HelperBase {
     }
 
     public void buttonEditContact() {
-    click(By.xpath("(//td[@class = 'center']//*[@title = 'Edit'])[2]"));
+    click(By.xpath("(//td[@class = 'center']//*[@title = 'Edit'])[1]"));
     }
 
     public void buttonUpdateContact() {
@@ -58,5 +58,26 @@ public class ContactHelper extends HelperBase {
 
     public void alertmessage() {
         wd.switchTo().alert().accept();
+    }
+
+
+    public void goToHomePage() {
+        if(isElementPresent(By.id("maintable"))){
+            return;
+        }
+        click(By.linkText("home page"));
+    }
+
+
+    public void createContact(ContactData contact, boolean groupField) {
+        clickButtonNewContact();
+        fillingFieldsNewContact(contact, groupField);
+        sabmitContactCreation();
+        goToHomePage();
+    }
+
+    public boolean chekingContact() {
+        return isElementPresent(By.xpath("(//td[@class = 'center']//*[@title = 'Edit'])[1]"));
+  //      return isElementPresent(By.name("selected[]"));
     }
 }
