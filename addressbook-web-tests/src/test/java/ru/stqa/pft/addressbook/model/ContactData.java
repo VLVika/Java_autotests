@@ -3,6 +3,7 @@ package ru.stqa.pft.addressbook.model;
 import java.util.Objects;
 
 public class ContactData {
+    private int id;
     private final String name;
     private final String sername;
     private final String nikename;
@@ -10,7 +11,8 @@ public class ContactData {
     private final String mail;
     private final String group;
 
-    public ContactData(String name, String sername, String nikename, String phone, String mail, String group) {
+    public ContactData(int id, String name, String sername, String nikename, String phone, String mail, String group) {
+        this.id = id;
         this.name = name;
         this.sername = sername;
         this.nikename = nikename;
@@ -18,6 +20,23 @@ public class ContactData {
         this.mail = mail;
         this.group = group;
     }
+
+
+    public ContactData(String name, String sername, String nikename, String phone, String mail, String group) {
+        this.id = 0;
+        this.name = name;
+        this.sername = sername;
+        this.nikename = nikename;
+        this.phone = phone;
+        this.mail = mail;
+        this.group = group;
+    }
+
+    public int getId(){
+        return id;
+    }
+
+
 
     public String getName() {
         return name;
@@ -43,10 +62,13 @@ public class ContactData {
         return group;
     }
 
+
     @Override
     public String toString() {
         return "ContactData{" +
-                "sername='" + sername + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", sername='" + sername + '\'' +
                 '}';
     }
 
@@ -55,11 +77,17 @@ public class ContactData {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         ContactData that = (ContactData) o;
-        return Objects.equals(sername, that.sername);
+        return id == that.id &&
+                Objects.equals(name, that.name) &&
+                Objects.equals(sername, that.sername);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(sername);
+        return Objects.hash(id, name, sername);
     }
+
+
+
+
 }
