@@ -3,12 +3,15 @@ package ru.stqa.pft.addressbook.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import ru.stqa.pft.addressbook.model.ContactData;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class ContactHelper extends HelperBase {
 
@@ -64,6 +67,13 @@ public class ContactHelper extends HelperBase {
 
     public void alertmessage() {
         wd.switchTo().alert().accept();
+        wd.findElement(By.cssSelector("div.msgbox"));
+    }
+
+    public void waitSecond() {
+        WebDriverWait wait = new WebDriverWait(wd, 10);
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.id("maintable")));
+
     }
 
 
@@ -93,7 +103,8 @@ public class ContactHelper extends HelperBase {
 
     public List<ContactData> getContactList() {
         List<ContactData> contacts = new ArrayList<ContactData>();
-        List<WebElement> sernames = wd.findElements(By.xpath("//tr[@name = 'entry']//td[2]"));
+        List<WebElement> sernames = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));
+  //      List<WebElement> names = wd.findElements(By.xpath("//tr[@name = 'entry']//td[3]"));
         for (WebElement element: sernames) {
             String sername = element.getText();
             ContactData contact = new ContactData(null, sername, null, null, null, null);
