@@ -92,6 +92,18 @@ public class ContactHelper extends HelperBase {
         goToHomePage();
     }
 
+    public void modifyGroup(int index, ContactData newcontact) {
+        buttonEditContact(index);
+        fillingFieldsNewContact(newcontact, false);
+        buttonUpdateContact();
+        goToHomePage();
+    }
+
+
+
+
+
+
     public boolean chekingContact() {
         return isElementPresent(By.xpath("(//td[@class = 'center']//*[@title = 'Edit'])[1]"));
   //      return isElementPresent(By.name("selected[]"));
