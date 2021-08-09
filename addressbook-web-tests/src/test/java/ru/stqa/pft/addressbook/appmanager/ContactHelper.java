@@ -8,9 +8,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import ru.stqa.pft.addressbook.model.ContactData;
-
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 
@@ -45,8 +45,13 @@ public class ContactHelper extends HelperBase {
 
     public void buttonEditContact(int index) {
         wd.findElements(By.xpath("//td[@class = 'center']//*[@title = 'Edit']")).get(index).click();
-
     }
+
+    public void buttonEditContactById(int id) {
+        wd.findElement(By.cssSelector("a[href='edit.php?id="+id+"']")).click();
+    }
+
+
 
     public void buttonUpdateContact() {
         click(By.name("update"));
@@ -54,8 +59,10 @@ public class ContactHelper extends HelperBase {
 
     public void checkboxContact(int index) {
         wd.findElements(By.name("selected[]")).get(index).click();
+    }
 
-
+    public void checkboxContactById(int id) {
+        wd.findElement(By.cssSelector("input[id = '"+ id + "']")).click();
     }
 
     public void buttonDeleteContact() {
@@ -89,16 +96,17 @@ public class ContactHelper extends HelperBase {
         sabmitContactCreation();
         goToHomePage();
     }
-
-    public void modify(int index, ContactData newcontact) {
-        buttonEditContact(index);
+    public void modify(ContactData newcontact) {
+        buttonEditContactById(newcontact.getId());
+    //    buttonEditContact(index);
         fillingFieldsNewContact(newcontact, false);
         buttonUpdateContact();
         goToHomePage();
     }
 
-    public void delete(int index) {
-        checkboxContact(index);
+
+    public void delete(ContactData contact) {
+        checkboxContactById(contact.getId());
         buttonDeleteContact();
         alertmessage();
         waitSecond();
@@ -113,8 +121,9 @@ public class ContactHelper extends HelperBase {
         return wd.findElements(By.name("selected[]")).size();
     }
 
-    public List<ContactData> list() {
-        List<ContactData> contacts = new ArrayList<ContactData>();
+
+    public Set<ContactData> all() {
+        Set<ContactData> contacts = new HashSet<>();
         List<WebElement> sernames = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));
         for (WebElement element: sernames) {
             List<WebElement> cells = element.findElements(By.tagName("td"));
@@ -125,5 +134,6 @@ public class ContactHelper extends HelperBase {
         }
         return contacts;
     }
+
 }
 
