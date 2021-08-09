@@ -3,41 +3,55 @@ package ru.stqa.pft.addressbook.model;
 import java.util.Objects;
 
 public class ContactData {
-    private int id;
-    private final String name;
-    private final String sername;
-    private final String nikename;
-    private final String phone;
-    private final String mail;
-    private final String group;
-
-    public ContactData(int id, String name, String sername, String nikename, String phone, String mail, String group) {
-        this.id = id;
-        this.name = name;
-        this.sername = sername;
-        this.nikename = nikename;
-        this.phone = phone;
-        this.mail = mail;
-        this.group = group;
-    }
+    private int id = Integer.MAX_VALUE;
+    private  String name;
+    private  String sername;
+    private  String nikename;
+    private  String phone;
+    private  String mail;
 
 
-    public ContactData(String name, String sername, String nikename, String phone, String mail, String group) {
-        this.id = Integer.MAX_VALUE;
-        this.name = name;
-        this.sername = sername;
-        this.nikename = nikename;
-        this.phone = phone;
-        this.mail = mail;
-        this.group = group;
-    }
+    private  String group;
+
 
     public int getId(){
         return id;
     }
 
-    public void setId(int id) {
+    public ContactData withId(int id) {
         this.id = id;
+        return this;
+    }
+
+
+    public ContactData withName(String name) {
+        this.name = name;
+        return this;
+    }
+
+    public ContactData withSername(String sername) {
+        this.sername = sername;
+        return this;
+    }
+
+    public ContactData withNikename(String nikename) {
+        this.nikename = nikename;
+        return this;
+    }
+
+    public ContactData withPhone(String phone) {
+        this.phone = phone;
+        return this;
+    }
+
+    public ContactData withMail(String mail) {
+        this.mail = mail;
+        return this;
+    }
+
+    public ContactData withGroup(String group) {
+        this.group = group;
+        return this;
     }
 
     public String getName() {

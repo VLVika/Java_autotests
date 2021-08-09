@@ -11,7 +11,6 @@ import ru.stqa.pft.addressbook.model.ContactData;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class ContactHelper extends HelperBase {
 
@@ -46,8 +45,7 @@ public class ContactHelper extends HelperBase {
 
     public void buttonEditContact(int index) {
         wd.findElements(By.xpath("//td[@class = 'center']//*[@title = 'Edit']")).get(index).click();
-  //      wd.findElements(By.name("(//td[@class = 'center']//*[@title = 'Edit'])[1]")).get(index).click();
- //   click(By.xpath("(//td[@class = 'center']//*[@title = 'Edit'])[1]"));
+
     }
 
     public void buttonUpdateContact() {
@@ -85,35 +83,37 @@ public class ContactHelper extends HelperBase {
     }
 
 
-    public void createContact(ContactData contact, boolean groupField) {
+    public void create(ContactData contact, boolean groupField) {
         clickButtonNewContact();
         fillingFieldsNewContact(contact, groupField);
         sabmitContactCreation();
         goToHomePage();
     }
 
-    public void modifyGroup(int index, ContactData newcontact) {
+    public void modify(int index, ContactData newcontact) {
         buttonEditContact(index);
         fillingFieldsNewContact(newcontact, false);
         buttonUpdateContact();
         goToHomePage();
     }
 
-
-
-
+    public void delete(int index) {
+        checkboxContact(index);
+        buttonDeleteContact();
+        alertmessage();
+        waitSecond();
+    }
 
 
     public boolean chekingContact() {
         return isElementPresent(By.xpath("(//td[@class = 'center']//*[@title = 'Edit'])[1]"));
-  //      return isElementPresent(By.name("selected[]"));
     }
 
     public int getContactCount() {
         return wd.findElements(By.name("selected[]")).size();
     }
 
-    public List<ContactData> getContactList() {
+    public List<ContactData> list() {
         List<ContactData> contacts = new ArrayList<ContactData>();
         List<WebElement> sernames = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));
         for (WebElement element: sernames) {
@@ -121,8 +121,7 @@ public class ContactHelper extends HelperBase {
             String sername = cells.get(1).getText();
             String name = cells.get(2).getText();
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            ContactData contact = new ContactData(id, name, sername, null, null, null, null);
-            contacts.add(contact);
+            contacts.add(new ContactData().withId(id).withName(name).withSername(sername));
         }
         return contacts;
     }
