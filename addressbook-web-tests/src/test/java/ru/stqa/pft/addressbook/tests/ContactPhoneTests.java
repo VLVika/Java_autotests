@@ -17,7 +17,7 @@ public class ContactPhoneTests extends TestBase {
         if (app.contact().all().size() == 0) {
             app.contact().create(new ContactData()
                     .withName("Viktirya").withSername("Ledovskikh").withNikename("LedoVik").withPhoneHome("556-58-85")
-                    .withphoneMobile("965-88-52").withphoneWork("658-94-77").withMail("addressnew@mail.ru").withGroup("test5"), true);
+                    .withphoneMobile("965-88-52").withphoneWork("658-94-77").withMail("addressnew@mail.ru").withMail2("addressnew2@mail.ru").withMail3("addressnew3@mail.ru").withGroup("test5"), true);
         }
     }
 
@@ -28,7 +28,7 @@ public class ContactPhoneTests extends TestBase {
         ContactData contactInfoFromEditForm = app.contact().infoFormEditForm(checKContact);
 
         assertThat(checKContact.getAllPhones(), equalTo(mergePhohes(contactInfoFromEditForm)));
-
+        assertThat(checKContact.getAllEmail(), equalTo(mergeEmail(contactInfoFromEditForm)));
 
     }
 
@@ -39,6 +39,15 @@ public class ContactPhoneTests extends TestBase {
                 .collect(Collectors.joining("\n"));
 
     }
+
+    private String mergeEmail(ContactData contact) {
+        return Arrays.asList(contact.getMail(), contact.getMail2(), contact.getMail3())
+                .stream().filter((s) -> ! s.equals(""))
+                .collect(Collectors.joining("\n"));
+
+    }
+
+
 
     public static String cleaned(String phone) {
         return phone.replaceAll("\\s", "").replaceAll("[-()]", "");

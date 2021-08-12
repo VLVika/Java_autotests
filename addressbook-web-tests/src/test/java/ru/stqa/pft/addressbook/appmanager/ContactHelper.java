@@ -32,6 +32,8 @@ public class ContactHelper extends HelperBase {
         type(By.name("mobile"), contactData.getPhoneMobile());
         type(By.name("work"), contactData.getPhoneWork());
         type(By.name("email"), contactData.getMail());
+        type(By.name("email2"), contactData.getMail2());
+        type(By.name("email3"), contactData.getMail3());
 
         if(creation){
             new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
@@ -102,7 +104,6 @@ public class ContactHelper extends HelperBase {
     }
     public void modify(ContactData newcontact) {
         buttonEditContactById(newcontact.getId());
-    //    buttonEditContact(index);
         fillingFieldsNewContact(newcontact, false);
         buttonUpdateContact();
       //  contactCache = null;
@@ -155,8 +156,9 @@ public class ContactHelper extends HelperBase {
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
             String sername = cells.get(1).getText();
             String name = cells.get(2).getText();
+            String allEmail = cells.get(4).getText();
             String allPhones = cells.get(5).getText();
-            contacts.add(new ContactData().withId(id).withName(name).withSername(sername).withAllPhones(allPhones));
+            contacts.add(new ContactData().withId(id).withName(name).withSername(sername).withAllPhones(allPhones).withAllEmail(allEmail));
         }
         return contacts;
     }
@@ -168,9 +170,12 @@ public class ContactHelper extends HelperBase {
         String home = wd.findElement(By.name("home")).getAttribute("value");
         String mobile = wd.findElement(By.name("mobile")).getAttribute("value");
         String work = wd.findElement(By.name("work")).getAttribute("value");
+        String email1 = wd.findElement(By.name("email")).getAttribute("value");
+        String email2 = wd.findElement(By.name("email2")).getAttribute("value");
+        String email3 = wd.findElement(By.name("email3")).getAttribute("value");
         wd.navigate().back();
         return new ContactData().withId(contact.getId()).withName(firstname).withSername(lastname).withPhoneHome(home)
-                .withphoneMobile(mobile).withphoneWork(work);
+                .withphoneMobile(mobile).withphoneWork(work).withMail(email1).withMail2(email2).withMail3(email3);
     }
 }
 
