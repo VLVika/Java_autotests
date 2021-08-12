@@ -12,17 +12,17 @@ import static org.testng.Assert.assertEquals;
 
 public class ContactDeletionTests extends TestBase {
 
-    @Test
 
     @BeforeMethod
     public void ensurePreconditions() {
         if (app.contact().all().size() == 0) {
             app.contact().create(new ContactData()
-                    .withName("Viktirya").withSername("Ledovskikh").withSername("LedoVik").withPhone("965-88-52")
-                    .withMail("addressnew@mail.ru").withGroup("test5"), true);
-
+                    .withName("Viktirya").withSername("Ledovskikh").withNikename("LedoVik").withPhoneHome("556-58-85")
+                    .withphoneMobile("965-88-52").withphoneWork("658-94-77").withMail("addressnew@mail.ru").withGroup("test5"), true);
         }
     }
+
+    @Test
 
     public void testContactDeletion() {
       Contacts before = app.contact().all();
