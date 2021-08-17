@@ -1,10 +1,15 @@
 package ru.stqa.pft.addressbook.model;
 
+import com.google.gson.annotations.Expose;
+
 import java.util.Objects;
 
 public class GroupData {
+    @Expose
     private  String name;
+    @Expose
     private  String header;
+    @Expose
     private  String footer;
     private  int id = Integer.MAX_VALUE;
 
