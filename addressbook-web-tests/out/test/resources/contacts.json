@@ -8,7 +8,8 @@
     "phoneWork": "647-99-85 0",
     "mail": "addressnew@mail.ru 0",
     "mail2": "addressnew2@mail.ru 0",
-    "mail3": "addressnew3@mail.ru 0"
+    "mail3": "addressnew3@mail.ru 0",
+    "group": "test 0"
   },
   {
     "name": "Vika 1",
@@ -19,7 +20,8 @@
     "phoneWork": "647-99-85 1",
     "mail": "addressnew@mail.ru 1",
     "mail2": "addressnew2@mail.ru 1",
-    "mail3": "addressnew3@mail.ru 1"
+    "mail3": "addressnew3@mail.ru 1",
+    "group": "test 1"
   },
   {
     "name": "Vika 2",
@@ -30,28 +32,7 @@
     "phoneWork": "647-99-85 2",
     "mail": "addressnew@mail.ru 2",
     "mail2": "addressnew2@mail.ru 2",
-    "mail3": "addressnew3@mail.ru 2"
-  },
-  {
-    "name": "Vika 3",
-    "sername": "Ledovskikh 3",
-    "nikename": "LedoVik 3",
-    "phoneHome": "996-58-96 3",
-    "phoneMobile": "9965-84-99 3",
-    "phoneWork": "647-99-85 3",
-    "mail": "addressnew@mail.ru 3",
-    "mail2": "addressnew2@mail.ru 3",
-    "mail3": "addressnew3@mail.ru 3"
-  },
-  {
-    "name": "Vika 4",
-    "sername": "Ledovskikh 4",
-    "nikename": "LedoVik 4",
-    "phoneHome": "996-58-96 4",
-    "phoneMobile": "9965-84-99 4",
-    "phoneWork": "647-99-85 4",
-    "mail": "addressnew@mail.ru 4",
-    "mail2": "addressnew2@mail.ru 4",
-    "mail3": "addressnew3@mail.ru 4"
+    "mail3": "addressnew3@mail.ru 2",
+    "group": "test 2"
   }
 ]

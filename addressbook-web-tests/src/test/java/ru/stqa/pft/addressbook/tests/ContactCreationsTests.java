@@ -1,13 +1,18 @@
 package ru.stqa.pft.addressbook.tests;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.ContactData;
 import ru.stqa.pft.addressbook.model.Contacts;
 
+import java.io.BufferedReader;
 import java.io.File;
-import java.util.ArrayList;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -17,24 +22,20 @@ public class ContactCreationsTests extends TestBase {
 
 
     @DataProvider
-    public Iterator<Object[]> validContacts(){
-        List<Object[]> list = new ArrayList<Object[]>();
-        File photo = new File("src\\test\\resources\\photo.png");
-        list.add(new Object[]{new ContactData()
-                .withName("Viktirya").withSername("Ledovskikh").withNikename("LedoVik").withPhoto(photo)
-                .withPhoneHome("556-58-85").withphoneMobile("965-88-52").withphoneWork("658-94-77")
-                .withMail("addressnew@mail.ru").withMail2("addressnew2@mail.ru").withMail3("addressnew3@mail.ru").withGroup("test1")});
-        list.add(new Object[]{new ContactData()
-                .withName("Viktirya2").withSername("Ledovskikh2").withNikename("LedoVik3").withPhoto(photo)
-                .withPhoneHome("556-58-88").withphoneMobile("965-88-72").withphoneWork("658-54-77")
-                .withMail("addressnew@mail.ru2").withMail2("addressnew2@mail.ru2").withMail3("addressnew3@mail.ru2").withGroup("test2")});
-        list.add(new Object[]{new ContactData()
-                .withName("Viktirya3").withSername("Ledovskikh3").withNikename("LedoVik3").withPhoto(photo)
-                .withPhoneHome("556-58-89").withphoneMobile("965-88-22").withphoneWork("658-14-77")
-                .withMail("addressnew@mail.ru3").withMail2("addressnew2@mail.ru3").withMail3("addressnew3@mail.ru3").withGroup("test3")});
-        return list.iterator();
-
+    public Iterator<Object[]> validContacts() throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/contacts.json")));
+        String json = "";
+        String line = reader.readLine();
+        while (line != null) {
+            json += line;
+            line = reader.readLine();
+        }
+        Gson gson = new Gson();
+        List<ContactData> contacts = gson.fromJson(json, new TypeToken<List<ContactData>>() {
+        }.getType());
+        return contacts.stream().map((c) -> new Object[]{c}).collect(Collectors.toList()).iterator();
     }
+
 
     @Test (dataProvider = "validContacts")
     public void testContactCreations(ContactData newcontact) throws Exception {

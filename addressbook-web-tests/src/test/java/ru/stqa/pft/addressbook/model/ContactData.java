@@ -28,10 +28,11 @@ public class ContactData {
     private String allPhones;
     private String allEmail;
     private File photo;
-
-
-
+    @Expose
     private  String group;
+
+
+
 
 
     public ContactData withId(int id) {
