@@ -89,33 +89,34 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\resources" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\sandbox" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.stqa.pft.sandbox" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\sandbox" />
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests" />
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook" />
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook\tests" />
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook\tests\contacts" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.stqa.pft.addressbook.appmanager" />
       <recent name="ru.stqa.pft.addressbook" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\resources" />
       <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\sandbox" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationsTests">
+  <component name="RunManager" selected="TestNG.GroupCreationsTests.testGroupCreations">
     <configuration name="ContacstDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.generators.ContacstDataGenerator" />
       <module name="addressbook-web-tests.test" />
@@ -131,17 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.generators.GroupDataGenerator" />
+    <configuration name="C:/Users/MOSADMIN/Documents/GitHub/Java_autotests/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/generators/testhg.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
-      <option name="PROGRAM_PARAMETERS" value="-c 5 -f src/test/resources/groups.json -d json" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/addressbook-web-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.generators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/generators/testhg.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,16 +178,26 @@
     </configuration>
     <configuration name="GroupCreationsTests.testGroupCreations" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationsTests" />
       <option name="METHOD_NAME" value="testGroupCreations" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea " />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -199,19 +205,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GroupDataGenerator" />
       <item itemvalue="Application.ContacstDataGenerator" />
       <item itemvalue="TestNG.GroupCreationsTests" />
       <item itemvalue="TestNG.ContactCreationsTests" />
       <item itemvalue="TestNG.GroupCreationsTests.testGroupCreations" />
+      <item itemvalue="TestNG.C:/Users/MOSADMIN/Documents/GitHub/Java_autotests/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/generators/testhg.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupCreationsTests.testGroupCreations" />
+        <item itemvalue="TestNG.C:/Users/MOSADMIN/Documents/GitHub/Java_autotests/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/generators/testhg.xml" />
         <item itemvalue="TestNG.ContactCreationsTests" />
         <item itemvalue="Application.ContacstDataGenerator" />
         <item itemvalue="TestNG.GroupCreationsTests" />
-        <item itemvalue="TestNG.GroupCreationsTests.testGroupCreations" />
-        <item itemvalue="Application.GroupDataGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -247,10 +253,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1625916460180" />
-    <state x="1559" y="27" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629233814741">
+    <state x="1559" y="27" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629306099073">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1559" y="27" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629233814741" />
+    <state x="1559" y="27" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629306099073" />
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1626531209827" />
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1628184078656">
       <screen x="0" y="0" width="1366" height="728" />
@@ -286,45 +292,45 @@
     </state>
     <state x="2017" y="175" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629138723172" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627210597225" />
-    <state width="1876" height="389" key="GridCell.Tab.0.bottom" timestamp="1629233699513">
+    <state width="1876" height="483" key="GridCell.Tab.0.bottom" timestamp="1629307767943">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="389" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629233699513" />
+    <state width="1876" height="483" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629307767943" />
     <state width="1322" height="297" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628960716655" />
-    <state width="1876" height="389" key="GridCell.Tab.0.center" timestamp="1629233699513">
+    <state width="1876" height="483" key="GridCell.Tab.0.center" timestamp="1629307767942">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="389" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629233699513" />
+    <state width="1876" height="483" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629307767942" />
     <state width="1322" height="297" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628960716654" />
-    <state width="1876" height="389" key="GridCell.Tab.0.left" timestamp="1629233699512">
+    <state width="1876" height="483" key="GridCell.Tab.0.left" timestamp="1629307767942">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="389" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629233699512" />
+    <state width="1876" height="483" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629307767942" />
     <state width="1322" height="297" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628960716654" />
-    <state width="1876" height="389" key="GridCell.Tab.0.right" timestamp="1629233699513">
+    <state width="1876" height="483" key="GridCell.Tab.0.right" timestamp="1629307767943">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="389" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629233699513" />
+    <state width="1876" height="483" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629307767943" />
     <state width="1322" height="297" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628960716654" />
-    <state width="1876" height="483" key="GridCell.Tab.1.bottom" timestamp="1629132796074">
+    <state width="1876" height="483" key="GridCell.Tab.1.bottom" timestamp="1629307649321">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="483" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629132796074" />
+    <state width="1876" height="483" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629307649321" />
     <state width="1322" height="297" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628960716655" />
-    <state width="1876" height="483" key="GridCell.Tab.1.center" timestamp="1629132796074">
+    <state width="1876" height="483" key="GridCell.Tab.1.center" timestamp="1629307649320">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="483" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629132796074" />
+    <state width="1876" height="483" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629307649320" />
     <state width="1322" height="297" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1628960716655" />
-    <state width="1876" height="483" key="GridCell.Tab.1.left" timestamp="1629132796074">
+    <state width="1876" height="483" key="GridCell.Tab.1.left" timestamp="1629307649320">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="483" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629132796074" />
+    <state width="1876" height="483" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629307649320" />
     <state width="1322" height="297" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1628960716655" />
-    <state width="1876" height="483" key="GridCell.Tab.1.right" timestamp="1629132796074">
+    <state width="1876" height="483" key="GridCell.Tab.1.right" timestamp="1629307649320">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="483" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629132796074" />
+    <state width="1876" height="483" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629307649320" />
     <state width="1322" height="297" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1628960716655" />
     <state x="348" y="67" key="NewModule_or_Project.wizard" timestamp="1626520191609">
       <screen x="0" y="0" width="1366" height="728" />
@@ -364,6 +370,17 @@
     </state>
     <state x="1904" y="178" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1628524465417" />
     <state x="383" y="120" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1628193846853" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sandbox$CroupCreationTests.ic" NAME="CroupCreationTests Coverage Results" MODIFIED="1626532596777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
