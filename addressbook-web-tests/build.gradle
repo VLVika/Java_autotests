@@ -9,9 +9,11 @@ dependencies {
     implementation 'com.thegoate:testng:0.15.8.202107032201'
     implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-beta-4'
     implementation 'org.hamcrest:hamcrest:2.2'
-    implementation 'bayern.steinbrecher:jcommander:1.80'
+    implementation 'com.beust:jcommander:1.81'
     implementation 'com.thoughtworks.xstream:xstream:1.4.17'
     implementation 'com.google.code.gson:gson:2.8.7'
+    implementation 'mysql:mysql-connector-java:8.0.26'
+    implementation 'org.hibernate:hibernate-core:5.5.6.Final'
 }
 
 task testGroups (type: Test) {
@@ -25,7 +27,7 @@ task testGroups (type: Test) {
         systemProperty 'target', "${target}"
     }
 }
-task testGroups (type: Test) {
+task testContacts (type: Test) {
     useTestNG {
         suites 'src/test/resources/testng-contacts.xml'
     }
