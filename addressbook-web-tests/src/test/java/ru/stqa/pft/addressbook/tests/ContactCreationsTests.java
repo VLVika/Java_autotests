@@ -39,10 +39,10 @@ public class ContactCreationsTests extends TestBase {
 
     @Test (dataProvider = "validContacts")
     public void testContactCreations(ContactData newcontact) throws Exception {
-        Contacts before = app.contact().all();
+        Contacts before = app.db().contacts();
         app.contact().clickButtonNewContact();
         app.contact().create((newcontact), true);
-        Contacts after = app.contact().all();
+        Contacts after = app.db().contacts();
         assertThat(after.size(), equalTo(before.size() + 1));
         assertThat(after, equalTo(
                 before.withAdded(newcontact.withId(after.stream().mapToInt((c) -> c.getId()).max().getAsInt()))));

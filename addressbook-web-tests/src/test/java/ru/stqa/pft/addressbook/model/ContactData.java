@@ -193,9 +193,13 @@ public class ContactData {
 
     public String getAllPhones() {return allPhones;}
 
-    public File getPhoto() { return new File(photo);}
-
-
+    public File getPhoto() {
+        if (photo != null) {
+            return new File(photo);
+        } else {
+            return null;
+        }
+    }
 
     @Override
     public String toString() {
@@ -203,6 +207,13 @@ public class ContactData {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", sername='" + sername + '\'' +
+                ", nikename='" + nikename + '\'' +
+                ", phoneHome='" + phoneHome + '\'' +
+                ", phoneMobile='" + phoneMobile + '\'' +
+                ", phoneWork='" + phoneWork + '\'' +
+                ", mail='" + mail + '\'' +
+                ", mail2='" + mail2 + '\'' +
+                ", mail3='" + mail3 + '\'' +
                 '}';
     }
 
@@ -213,11 +224,20 @@ public class ContactData {
         ContactData that = (ContactData) o;
         return id == that.id &&
                 Objects.equals(name, that.name) &&
-                Objects.equals(sername, that.sername);
+                Objects.equals(sername, that.sername) &&
+                Objects.equals(nikename, that.nikename) &&
+                Objects.equals(phoneHome, that.phoneHome) &&
+                Objects.equals(phoneMobile, that.phoneMobile) &&
+                Objects.equals(phoneWork, that.phoneWork) &&
+                Objects.equals(mail, that.mail) &&
+                Objects.equals(mail2, that.mail2) &&
+                Objects.equals(mail3, that.mail3);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, sername);
+        return Objects.hash(id, name, sername, nikename, phoneHome, phoneMobile, phoneWork, mail, mail2, mail3);
     }
+
+
 }

@@ -22,17 +22,5 @@
     "mail2": "addressnew2@mail.ru 1",
     "mail3": "addressnew3@mail.ru 1",
     "group": "test 1"
-  },
-  {
-    "name": "Vika 2",
-    "sername": "Ledovskikh 2",
-    "nikename": "LedoVik 2",
-    "phoneHome": "996-58-96 2",
-    "phoneMobile": "9965-84-99 2",
-    "phoneWork": "647-99-85 2",
-    "mail": "addressnew@mail.ru 2",
-    "mail2": "addressnew2@mail.ru 2",
-    "mail3": "addressnew3@mail.ru 2",
-    "group": "test 2"
   }
 ]
