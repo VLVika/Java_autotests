@@ -107,82 +107,35 @@
       <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationsTests">
+  <component name="RunManager" selected="TestNG.AddGroupToContactTest">
+    <configuration name="AddGroupToContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.AddGroupToContactTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactCreationsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactCreationsTests" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -DverifyUI=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactDeletionTests" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -DverifyUI=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactModificationTests" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -DverifyUI=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -191,79 +144,15 @@
     </configuration>
     <configuration name="GroupCreationsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationsTests" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -DverifyUI=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupCreationsTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationsTests" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea  -DverifyUI=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupDeletionsTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupDeletionsTests" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -DverifyUI=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -297,19 +186,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HbConnectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.HbConnectionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HbConnectionTest.testHbConnection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.HbConnectionTest" />
+      <option name="METHOD_NAME" value="testHbConnection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.GroupDeletionsTests" />
-      <item itemvalue="TestNG.ContactCreationsTests" />
+      <item itemvalue="TestNG.HbConnectionTest" />
+      <item itemvalue="TestNG.ContactCreationsTests (1)" />
       <item itemvalue="TestNG.GroupCreationsTests" />
-      <item itemvalue="TestNG.ContactModificationTests" />
-      <item itemvalue="TestNG.ContactDeletionTests" />
+      <item itemvalue="TestNG.AddGroupToContactTest" />
+      <item itemvalue="TestNG.HbConnectionTest.testHbConnection" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactCreationsTests" />
-        <item itemvalue="TestNG.ContactDeletionTests" />
-        <item itemvalue="TestNG.ContactModificationTests" />
-        <item itemvalue="TestNG.GroupDeletionsTests" />
+        <item itemvalue="TestNG.AddGroupToContactTest" />
+        <item itemvalue="TestNG.HbConnectionTest" />
+        <item itemvalue="TestNG.HbConnectionTest.testHbConnection" />
+        <item itemvalue="TestNG.ContactCreationsTests (1)" />
         <item itemvalue="TestNG.GroupCreationsTests" />
       </list>
     </recent_temporary>
@@ -363,10 +287,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1885" y="89" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629135280661" />
-    <state x="1990" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1629742030707">
+    <state x="1990" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1630001429940">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1990" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629742030707" />
+    <state x="1990" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630001429940" />
     <state x="444" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1628941945813" />
     <state x="506" y="62" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1627410658180">
       <screen x="0" y="0" width="1366" height="728" />
@@ -385,25 +309,25 @@
     </state>
     <state x="2017" y="175" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629138723172" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627210597225" />
-    <state width="1876" height="385" key="GridCell.Tab.0.bottom" timestamp="1629838645533">
+    <state width="1876" height="385" key="GridCell.Tab.0.bottom" timestamp="1630247887029">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="385" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629838645533" />
+    <state width="1876" height="385" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630247887029" />
     <state width="1322" height="297" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628960716655" />
-    <state width="1876" height="385" key="GridCell.Tab.0.center" timestamp="1629838645533">
+    <state width="1876" height="385" key="GridCell.Tab.0.center" timestamp="1630247887029">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="385" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629838645533" />
+    <state width="1876" height="385" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630247887029" />
     <state width="1322" height="297" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628960716654" />
-    <state width="1876" height="385" key="GridCell.Tab.0.left" timestamp="1629838645533">
+    <state width="1876" height="385" key="GridCell.Tab.0.left" timestamp="1630247887029">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="385" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629838645533" />
+    <state width="1876" height="385" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630247887029" />
     <state width="1322" height="297" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628960716654" />
-    <state width="1876" height="385" key="GridCell.Tab.0.right" timestamp="1629838645533">
+    <state width="1876" height="385" key="GridCell.Tab.0.right" timestamp="1630247887029">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="385" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629838645533" />
+    <state width="1876" height="385" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630247887029" />
     <state width="1322" height="297" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628960716654" />
     <state width="1876" height="367" key="GridCell.Tab.1.bottom" timestamp="1629828679575">
       <screen x="1366" y="0" width="1920" height="1080" />
@@ -463,17 +387,6 @@
     </state>
     <state x="1904" y="178" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1628524465417" />
     <state x="383" y="120" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1628193846853" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sandbox$CroupCreationTests.ic" NAME="CroupCreationTests Coverage Results" MODIFIED="1626532596777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

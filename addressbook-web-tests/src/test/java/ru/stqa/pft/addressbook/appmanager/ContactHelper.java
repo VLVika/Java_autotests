@@ -37,7 +37,10 @@ public class ContactHelper extends HelperBase {
         type(By.name("email3"), contactData.getMail3());
 
         if(creation){
-            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+            if(contactData.getGroups().size() > 0){
+                Assert.assertTrue(contactData.getGroups().size() == 1);
+                new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroups().iterator().next().getName());
+            }
         } else {
             Assert.assertFalse(isElementPresent(By.name("new group")));
         }
@@ -95,6 +98,15 @@ public class ContactHelper extends HelperBase {
         click(By.linkText("home page"));
     }
 
+    public void goNoGroupInContact(){
+        click(By.xpath(String.format("//select[@name='group']/option[@value='[none]']")));
+    }
+
+    public void addContactInGroup() {
+        click(By.xpath(String.format("//select[@name='group']/option[@value='[none]']")));
+
+    }
+
 
     public void create(ContactData contact, boolean groupField) {
         clickButtonNewContact();
@@ -119,6 +131,8 @@ public class ContactHelper extends HelperBase {
         alertmessage();
         waitSecond();
     }
+
+
 
 
     public boolean chekingContact() {

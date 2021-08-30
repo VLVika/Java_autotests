@@ -61,7 +61,8 @@ public class ContacstDataGenerator {
         for (ContactData contact: contacts) {
             writer.write(String.format("%s;%s;%s;%s;%s;%s;%s;%s;%s;%s\n", contact.getName(), contact.getSername(),
                     contact.getNikename(), contact.getPhoneHome(), contact.getPhoneMobile(), contact.getPhoneWork(),
-                    contact.getMail(), contact.getMail2(), contact.getMail3(), contact.getGroup()));
+             //       contact.getMail(), contact.getMail2(), contact.getMail3(), contact.getGroup()));
+                    contact.getMail(), contact.getMail2(), contact.getMail3()));
         }
         writer.close();
 
@@ -75,7 +76,9 @@ public class ContacstDataGenerator {
                     .withSername(String.format("Ledovskikh %s", i))
                     .withNikename(String.format("LedoVik %s", i)).withPhoneHome(String.format("996-58-96 %s", i))
                     .withphoneMobile(String.format("9965-84-99 %s", i)).withphoneWork(String.format("647-99-85 %s", i))
-                    .withMail(String.format("addressnew@mail.ru %s", i)).withMail2(String.format("addressnew2@mail.ru %s", i)).withMail3(String.format("addressnew3@mail.ru %s", i)).withGroup(String.format("test %s", i)));
+                    .withMail(String.format("addressnew@mail.ru %s", i)).withMail2(String.format("addressnew2@mail.ru %s", i))
+                 //   .withMail3(String.format("addressnew3@mail.ru %s", i)).withGroup(String.format("test %s", i)));
+                    .withMail3(String.format("addressnew3@mail.ru %s", i)));
         }
         return contacts;
     }
