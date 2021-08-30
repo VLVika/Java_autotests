@@ -32,6 +32,9 @@
     <projectState path="$PROJECT_DIR$/addressbook-web-tests">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/mantis-tests">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/sandbox">
       <ProjectState />
     </projectState>
@@ -80,7 +83,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mantis-tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -355,9 +358,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1628184078656" />
-    <state x="386" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627067155458">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1909" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630345094828">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1909" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630345094828" />
     <state x="386" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1627067155458" />
     <state x="1885" y="89" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1629135280661">
       <screen x="1366" y="0" width="1920" height="1080" />
@@ -380,11 +384,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1628942156355" />
-    <state x="2017" y="175" key="FileChooserDialogImpl" timestamp="1629138723172">
+    <state x="2017" y="175" key="FileChooserDialogImpl" timestamp="1630344910164">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2017" y="175" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629138723172" />
+    <state x="2017" y="175" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630344910164" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627210597225" />
+<<<<<<< Updated upstream
     <state width="1876" height="385" key="GridCell.Tab.0.bottom" timestamp="1629838645533">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -404,6 +409,27 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="385" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629838645533" />
+=======
+    <state width="1876" height="385" key="GridCell.Tab.0.bottom" timestamp="1630344672469">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="385" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630344672469" />
+    <state width="1322" height="297" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628960716655" />
+    <state width="1876" height="385" key="GridCell.Tab.0.center" timestamp="1630344672469">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="385" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630344672469" />
+    <state width="1322" height="297" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628960716654" />
+    <state width="1876" height="385" key="GridCell.Tab.0.left" timestamp="1630344672469">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="385" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630344672469" />
+    <state width="1322" height="297" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628960716654" />
+    <state width="1876" height="385" key="GridCell.Tab.0.right" timestamp="1630344672469">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="385" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630344672469" />
+>>>>>>> Stashed changes
     <state width="1322" height="297" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628960716654" />
     <state width="1876" height="367" key="GridCell.Tab.1.bottom" timestamp="1629828679575">
       <screen x="1366" y="0" width="1920" height="1080" />
@@ -437,9 +463,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="770" y="268" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1626862025251" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1627064132888">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1595" y="0" key="SettingsEditor" timestamp="1630345018740">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1595" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630345018740" />
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627064132888" />
     <state x="520" y="140" key="chooseDestDirectoryDialog" timestamp="1625921485766">
       <screen x="0" y="0" width="1366" height="728" />
