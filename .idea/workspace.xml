@@ -32,6 +32,9 @@
     <projectState path="$PROJECT_DIR$/addressbook-web-tests">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/mantis-tests">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/sandbox">
       <ProjectState />
     </projectState>
@@ -47,12 +50,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="sandbox" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -80,31 +78,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mantis-tests/test/resourcer" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\resources" />
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests" />
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\sandbox" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.stqa.ptf.mantis.appmanager" />
+      <recent name="ru.stqa.ptf.mantis.tests" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.stqa.pft.sandbox" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\mantis-tests\test\resourcer" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\resources" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\sandbox" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.stqa.pft.addressbook.appmanager" />
       <recent name="ru.stqa.pft.addressbook" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\resources" />
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\sandbox" />
       <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests" />
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook" />
-      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\addressbook-web-tests\src\test\java\ru\stqa\pft\addressbook\tests" />
+      <recent name="C:\Users\MOSADMIN\Documents\GitHub\Java_autotests\sandbox" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.AddGroupToContactTest">
@@ -222,8 +224,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.ContactCreationsTests" />
+      <item itemvalue="TestNG.GroupModificationTests" />
       <item itemvalue="TestNG.HbConnectionTest" />
-      <item itemvalue="TestNG.ContactCreationsTests (1)" />
       <item itemvalue="TestNG.GroupCreationsTests" />
       <item itemvalue="TestNG.AddGroupToContactTest" />
       <item itemvalue="TestNG.HbConnectionTest.testHbConnection" />
@@ -233,7 +236,6 @@
         <item itemvalue="TestNG.AddGroupToContactTest" />
         <item itemvalue="TestNG.HbConnectionTest" />
         <item itemvalue="TestNG.HbConnectionTest.testHbConnection" />
-        <item itemvalue="TestNG.ContactCreationsTests (1)" />
         <item itemvalue="TestNG.GroupCreationsTests" />
       </list>
     </recent_temporary>
@@ -304,10 +306,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1628942156355" />
-    <state x="2017" y="175" key="FileChooserDialogImpl" timestamp="1629138723172">
+    <state x="2017" y="175" key="FileChooserDialogImpl" timestamp="1630441474508">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2017" y="175" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1629138723172" />
+    <state x="2017" y="175" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630441474508" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627210597225" />
     <state width="1876" height="385" key="GridCell.Tab.0.bottom" timestamp="1630247887029">
       <screen x="1366" y="0" width="1920" height="1080" />
@@ -361,9 +363,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="770" y="268" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1626862025251" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1627064132888">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1595" y="0" key="SettingsEditor" timestamp="1630444322356">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1595" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1630444322356" />
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627064132888" />
     <state x="520" y="140" key="chooseDestDirectoryDialog" timestamp="1625921485766">
       <screen x="0" y="0" width="1366" height="728" />
